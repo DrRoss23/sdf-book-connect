@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header { 
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    color: #35424a;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.box { 
+    max-width: 800px;
+    margin: 20px auto; /* Center the box horizontally and add vertical spacing */
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the text inside the box */
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex; /* Enable Flexbox */
+    justify-content: space-between; /* Add space between the boxes */
+    align-items: flex-start; /* Align items at the start of the container */
+    max-width: 800px;
+    margin: 20px auto; /* Center the container horizontally */
+    padding: 10px;
+    gap: 20px; /* Add spacing between the boxes */
+}
+
+.container .box {
+    flex: 1; /* Allow the boxes to grow and take equal space */
+    margin: 0; /* Remove bottom margin since Flexbox handles spacing */
+}
+
+.container h2 {
+    color: #35424a;
+    margin-bottom: 10px; /* Add spacing below the heading */
+    text-align: center; /* Center the headings */
+}
+
+.image-paragraph {
+    height: 200px; /* Set the height of the section */
+    background-size: cover; /* Ensure the image covers the entire div */
+    background-position: center; /* Center the image */
+    display: flex; /* Use Flexbox to center the text */
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
+    color: #ffffff; /* Set text color to white for contrast */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
+    padding: 20px;
+    margin: 20px auto; /* Add spacing between sections */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
